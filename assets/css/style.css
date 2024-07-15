@@ -1,10 +1,4 @@
 /*==================================
-* Author        : "ThemeSine"
-* Template Name :  Browny  HTML Template
-* Version       : 1.0
-==================================== */
-
-/*==================================
 font-family: 'Poppins', sans-serif;
 ==================================== */
 
@@ -52,7 +46,7 @@ a,a:hover,a:active,a:focus {
 	text-decoration:none;
 	color: #6a708e;
 	font-size:16px;
-	padding:0;
+	/* padding:0; */
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
@@ -367,7 +361,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #c10707;}
     padding: 80px 0;
 }
 
-.header-text a:hover,
+/* .header-text a:hover, */
 .resume-button {
     box-shadow: 0 5px 20px rgba(0, 0, 0, .4);
     background: #c10707;
@@ -376,13 +370,21 @@ nav.navbar.bootsnav .navbar-toggle i{color: #c10707;}
     padding: 10px 20px;
     text-decoration: none;
     display: inline-block;
-    /* margin-left: 10px; */
+    margin-top: 20px;
+    width: 50%; /* Set a fixed width */
+    text-align: center; /* Center align text */
+    line-height: 1; /* Ensure line height is 1 for consistent height */
 }
 
 .resume-button:hover {
+    box-shadow: 0 02px 02px rgba(0, 0, 0, .4); 
+    /* Adjust the spread (20px) to match the initial button size */
     background: #a30606;
-    border-color: #a30606;
+    border-color: #a30606; 
+    color: #fff;
+    /* Match the border color with the background on hover */
 }
+
 
 /* Responsive styles */
 @media (max-width: 768px) {
