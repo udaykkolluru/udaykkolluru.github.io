@@ -370,7 +370,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #c10707;}
     padding: 10px 20px;
     text-decoration: none;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
     width: 50%; /* Set a fixed width */
     text-align: center; /* Center align text */
     line-height: 1; /* Ensure line height is 1 for consistent height */
